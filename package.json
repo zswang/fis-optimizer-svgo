@@ -1,0 +1,34 @@
+{
+  "name": "fis-optimizer-svgo",
+  "version": "0.0.2",
+  "description": "Optimizing SVG vector graphics files with FIS",
+  "main": "lib/svgo.js",
+  "scripts": {
+    "dist": "jdists src/svgo.js -o lib/svgo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zswang/fis-optimizer-svgo.git"
+  },
+  "author": {
+    "name": "zswang",
+    "url": "http://weibo.com/zswang"
+  },
+  "keywords": [
+    "fis",
+    "svg",
+    "svgo"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zswang/fis-optimizer-svgo/issues"
+  },
+  "homepage": "https://github.com/zswang/fis-optimizer-svgo#readme",
+  "dependencies": {
+    "deasync": "^0.1.10",
+    "svgo": "^0.7.2"
+  },
+  "devDependencies": {
+    "jdists": "^2.0.17"
+  }
+}
